@@ -1,0 +1,60 @@
+.parent{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+.parent-container{
+  background-color: bisque;
+  height: 100%;
+  width: 50%;
+  text-align: center;
+}
+.header-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.task-conatiner{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.task-conatiner input{
+ border: 1px;
+ border-radius: 5px;
+}
+.task-input{
+  width: 35%;
+  padding: 10px;
+}
+.task-input-date{
+  width: 25%;
+  padding: 10px
+
+}
+
+.list-conatiner{
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+  gap: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+}
+.list-conatiner p {
+  background-color: white;
+  border: 1px;
+  border-radius: 5px;
+}
+
+.action-button{
+  min-width: 80px;
+}
